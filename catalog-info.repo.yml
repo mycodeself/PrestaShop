@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PrestaShop
+  description: PrestaShop is a fully scalable open source e-commerce solution.
+  annotations:
+    github.com/project-slug: mycodeself/PrestaShop
+spec:
+  type: github-repository
+  owner: @PrestaShop/prestashop-maintainers
+  lifecycle: stable
